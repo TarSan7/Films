@@ -1,0 +1,201 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: rgb(0, 0, 54);
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+
+.logo{
+    max-width: 150px;
+    justify-self: flex-start;
+    margin-right: 30px;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: wheat;
+}
+
+.tel{
+    margin-left: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    width: 250px;
+    color: wheat;
+}
+
+.title{
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    justify-content: center;
+}
+
+.title-text{
+    font-size: 35px;
+    text-align: center;
+}
+
+.title-message{
+    margin: 100px 0 200px 0;
+}
+
+.comentWrap{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dateCom{
+    width: 100px;
+}
+
+.content{
+    margin: 0 15%;
+}
+.film{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.img{
+    max-width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px black;
+}
+
+.tit{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.wrap{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    margin: 0 50px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 40px;
+}
+.but{
+    padding: 15px 50px;
+    background-color: wheat;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    color: rgb(0, 0, 54);
+    border-width: 2px;
+    border-color: rgb(0, 0, 54);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn{
+    
+    margin-bottom: 50px;
+}
+.but:hover{
+    background-color:#ffca67;
+}
+
+.fot-text{
+     font-size: 20px;
+    color: wheat;
+}
+
+.heroes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.hero{
+    margin: 50px;
+}
+
+.h{
+    width: 100px;
+}
+
+.t{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    color:darkblue;
+    text-align: center;
+}
+
+
+.form{
+    display: block;
+}
+.name, .date, .coment, .content-com, .password{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 90%;
+    height: auto;
+    padding: 15px 50px;
+    margin: 25px 0;
+    border-radius: 20px;
+    border-color: #ADABAB;
+    border-width: 2px;
+    color:#ADABAB;
+}
+
+.content-com{
+    color: rgb(0, 0, 54);
+    padding: 0 50px;
+}
+
+.coment{
+    height: 200px;
+    align-items: start;
+}
+
+input:focus, textarea:focus{
+    color: black;
+}
+
+.label{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: left;
+}
+
+.comentar{
+    max-width: 800px;
+    padding: 30px;
+    align-self: center;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 0 9px black;
+    border-radius: 30px;
+    margin: 100px 0;
+}
+
+.footer{
+    margin-top: 100px;
+    background: rgb(0, 0, 54);
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    padding: 5%;
+}
